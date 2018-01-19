@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+body{
+    background-color: blue;
+    font-family: Macondo;
+}
+h1,
+.ch {
+    color: red;
+}
+
+div > p {
+    color: green;
+}
+
+div ~ p {
+    color: yellow;
+}
+
+p:hover {
+    color: brown;
+}
+p::first-letter{
+    color: violet;
+}
+
+p::before{
+    content: '<';
+}
+
+p::after{
+    content: '>';
+}
+
+p[data-select]{
+    color: #af3418;
+}
